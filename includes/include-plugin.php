@@ -5,6 +5,13 @@ class Plugin {
 
 	public function init() {
 
+		add_action( 'after_setup_theme', array( $this, 'after_setup' ) );
+
+	}
+
+
+	public function after_setup() {
+
 		require_once __DIR__ . '/include-email-shortcodes.php';
 
 		require_once __DIR__ . '/include-email-digest.php';

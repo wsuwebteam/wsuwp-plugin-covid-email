@@ -1,7 +1,7 @@
 <?php
 /*
 Plugin Name: WSUWP Covid Email (Restricted)
-Version: 0.0.1
+Version: 0.0.2
 Description: A plugin to add COVID email feature.
 Author: washingtonstateuniversity, Danial Bleile
 Author URI: https://github.com/washingtonstateuniversity/
